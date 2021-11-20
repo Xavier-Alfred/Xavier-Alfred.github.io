@@ -136,7 +136,7 @@ I am good at Leadership. Which makes me a productive employee. Also, my coding s
   disable_achievements: false
   achievements:
     - title: AWS Graviton Winners
-      description: We have developed a chrome extension takes input the cynical images and makes prediction using the pretrained model..
+      description: A chrome extension for detecting the CGI images
       img: /images/aws.jpg
       url: https://devpost.com/software/genie-7rqjby
 
