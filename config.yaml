@@ -1,0 +1,154 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Xavier's Blog"
+theme: "./.."
+relativeURLs: true
+
+googleanalytics: UA-xxxxxx-x
+disqusShortname:
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+enableEmoji: true
+params:
+  version: 3
+  customCSS: false
+
+  # Navbar Menus
+  customMenus:
+    - name: "Blog"
+      Url: "/blog"
+
+  # home
+  disable_home: false
+  profile_image: "https://github.com/Xavier-Alfred/Images/raw/main/solo.jpg"
+  name: "Xavier Emmanuel"
+  namecolor: ffc107
+  profession: "Student"
+  github: "https://github.com/Xavier-Alfred"
+  linkedin: "https://www.linkedin.com/in/xavier-emmanuel-287280201/"
+
+  # About
+  disable_about: false
+  descripe_l1_person: "I am Xavier Emmanuel E, from Tiruchirappalli, Tamil Nadu. My domain of interests are AI, Cyber Security, Designing and Data Science. My Goal is to be a software engineer, wants to help poor who doesn’t have the knowledge of computers.
+I am good at Leadership. Which makes me a productive employee. Also, my coding skills are up to the mark for a professional. I know C, C++, Python, Java. In my free time, I would solve some CTF’s for my cyber security skills."
+  descripe_l2_person: "I have participated in some CTF’s. I am doing a Machine learning course in COURSERA tutored by Stanford University. I have done few mobile app using Android Studio.  As to keep going in my life I do gardening in my home.
+
+ I like to play Badminton, Cricket, Football, and Basketball. I am bookworm and enjoys to read more sci-fi and horror books. I am good listener and when an instruction is said once, I can grasp it at the first time and start working. I never put back my works. I speak and write Tamil, English and Hindi. "
+  skills:
+    - name: C
+      percentage: 90
+    - name: C++
+      percentage: 85
+    - name: Python
+      percentage: 80
+    - name: CSS
+      percentage: 70
+    - name: Java
+      percentage: 80
+    - name: JavaScript
+      percentage: 75
+    - name: HTML5
+      percentage: 95
+    - name: Sql
+      percentage: 80
+  # Experience
+  disable_experience: false
+  experience:
+   - company: "Ingenium"
+     role: "Mentor"
+     startdate: Nov 2021
+     enddate: Nov 2021
+     featuredpoints:
+       - point: Mentored the Hackathon and guided the participants..
+       - point: Being a good mentor and organized the event sucessfully.
+   - company: "Cognizance"
+     # id: "facebook-developer" // use this, when you want to change the id(used for navigation)
+     role: "Mentor - AI Domain"
+     startdate: Dec 2020
+     enddate: present
+     featuredpoints:
+       - point: Mentoring students in the Field of Artificial Intelligence.
+       - point: Through various tasks in Machine Learning, training students for the better future.
+
+  # Education
+  disable_education: false
+  education:
+    - degree: "B.tech"
+      branch: "Computer Science and Engineering"
+      university: "Amrita Vishwa Vidhyapeetham"
+      startedyear: "2019"
+      graduation: "2023"
+    - degree: "12th Senior Secondary"
+      branch: "83%"
+      university: "Kamala Niketan Montessori School, Collector's office, 6, Maris Ave 3rd St, Road, Cantonment, Tiruchirappalli, Tamil Nadu 620001"
+      startedyear: "2018"
+      graduation: "2019"
+    - degree: "10th Higher Secondary "
+      branch: "9.2/10.0"
+      university: "Montfort School, Kattur, Trichy - 620019"
+      startedyear: "2017"
+      graduation: "2016"
+
+  # Projects
+  disable_projects: false
+  projects:
+    - name: "Genie"
+      img: https://github.com/Techipeeyon/Images/raw/main/icons/genie.jpg
+      githublink: "https://github.com/TechieNK/Genie"
+      featuredlink: "https://devpost.com/software/genie-7rqjby"
+      description: "Deep Learning powered image credibility checker"
+    - name: "Product Score"
+      img: https://github.com/Techipeeyon/Images/raw/main/icons/photo1631207346.jpeg
+      githublink: "https://bitbucket.org/sanjay-thiyagarajan/product-score/src/master/"
+      featuredlink: "https://devpost.com/software/product-score"
+      description: "Your one-stop solution for analysing the public reviews of your apps in Atlassian Marketplace, Google Play Store and App Store"
+    - name: "Credible"
+      img: https://github.com/Techipeeyon/Images/raw/main/icons/photo1624084952.jpeg
+      githublink: "https://github.com/sanjay-thiyagarajan/credible"
+      featuredlink: "https://devpost.com/software/credible-kg2v6x"
+      description: "Credible is an integrated platform which enables the companies to analyse the standard aspects of business model like resume, product reviews, write-ups and tweets of recruits using expert.ai NL API."
+    - name: "Accidento"
+      img: https://github.com/Techipeeyon/Images/raw/main/icons/CD.png
+      githublink: "https://github.com/TechieNK/accidento"
+      featuredlink: "https://devpost.com/software/accidento"
+      description: "Spot where Accidents are spotted using Web scraping"
+    - name: "Unforgeable"
+      img: https://github.com/Techipeeyon/Images/raw/main/icons/unfor.png
+      githublink: "https://github.com/Xavier-Alfred/Unforgeable"
+      featuredlink: "https://devpost.com/software/unforgeable"
+      description: "A Deep Learning powered web app analyzing the purity of photographs"
+    - name: "SurfUp"
+      img: https://github.com/Techipeeyon/Images/raw/main/icons/surfup.png
+      githublink: "https://github.com/TechieNK/Surfs-Up"
+      featuredlink: "https://devpost.com/software/surfup"
+      description: "A full-fledged surf time risk predictor on the run to save your travel time and your life sometimes"
+
+  # Achievements
+
+  disable_achievements: false
+  achievements:
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/aws.jpg
+      url: https://example.com
+
+  # Contact
+  disable_contact: false
+  contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+  email: "xavier12emmanuel@gmail.com"
+
+  # Footer
+  socialiconfooter: true
+  recentposts: true
+
+  # Blog
+  showdescription: false
+  tweet: false
