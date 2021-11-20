@@ -28,7 +28,7 @@ params:
 
   # home
   disable_home: false
-  profile_image: "https://github.com/Xavier-Alfred/Images/raw/main/solo.jpg"
+  profile_image: "https://github.com/Xavier-Alfred/Xavier-Alfred.github.io/blob/source/static/images/project.jpg"
   name: "Xavier Emmanuel"
   namecolor: ffc107
   profession: "Student"
