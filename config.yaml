@@ -135,10 +135,10 @@ I am good at Leadership. Which makes me a productive employee. Also, my coding s
 
   disable_achievements: false
   achievements:
-    - title: Competition winner
-      description: We are developed a product which can help others.
+    - title: AWS Graviton Winners
+      description: We have developed a chrome extension takes input the cynical images and makes prediction using the pretrained model..
       img: /images/aws.jpg
-      url: https://example.com
+      url: https://devpost.com/software/genie-7rqjby
 
   # Contact
   disable_contact: false
